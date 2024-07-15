@@ -9,7 +9,7 @@ import './styles/footer.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/React-Portfolio">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
