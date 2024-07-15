@@ -1,18 +1,17 @@
 import React from 'react';
 
-
 const projects = [
   {
     title: 'StopWatch using React',
     description: 'I created a React application that functions as a stopwatch, allowing users to start, stop, and reset the timer. The application displays the elapsed time in a user-friendly format.',
     link: 'https://github.com/SmritiManikand/React-ToDoList.git',
-    image: '/assets/images/project-one.jpg'
+    image: `${process.env.PUBLIC_URL}/assets/images/project-one.jpg`
   },
   {
     title: 'To Do List using React',
     description: 'I created an app to display tasks and it has options to mark it as completed, edit the task text, and remove the task from the list.',
     link: 'https://github.com/SmritiManikand/React-StopWatch',
-    image: '/assets/images/project-two.jpg'
+    image: `${process.env.PUBLIC_URL}/assets/images/project-two.jpg`
   }
 ];
 
